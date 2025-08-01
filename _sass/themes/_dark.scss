@@ -4,7 +4,7 @@
   /* Framework color */
   --main-bg: black ;
   --mask-bg: rgb(68, 69, 70);
-  --main-border-color: red;
+  --main-border-color: rgb(72, 106, 239);
 
   /* Common color */
   --text-color: rgb(175, 176, 177);
@@ -32,7 +32,7 @@
   );
 
   /* Sidebar */
-  --site-title-color: red;
+  --site-title-color: rgb(71, 107, 237);
   --site-subtitle-color: white;
   --sidebar-bg: black;
   --sidebar-border-color: #292929;
@@ -80,28 +80,28 @@
   --prompt-warning-bg: rgb(90, 69, 3, 0.88);
   --prompt-warning-icon-color: rgb(255, 165, 0, 0.8);
   --prompt-danger-bg: rgb(86, 28, 8, 0.8);
-  --prompt-danger-icon-color: #cd0202;
+  --prompt-danger-icon-color: #0231cdee;
 
   /* Tags */
   --tag-border: rgb(59, 79, 88);
-  --tag-shadow: red;
+  --tag-shadow: rgba(0, 34, 255, 0.688);
   --dash-color: rgb(63, 65, 68);
   --search-tag-bg: #292828;
   
   
   /* Categories */
   --categories-border: rgb(64, 66, 69, 0.5);
-  --categories-hover-bg: red;
+  --categories-hover-bg: rgb(52, 89, 238);
   --categories-icon-hover-color: white;
 
   /* Archive */
-  --timeline-node-bg: white;
-  --timeline-color: red;
+  --timeline-node-bg: rgba(64, 127, 235, 0.804);
+  --timeline-color: rgb(63, 105, 243);
   --timeline-year-dot-color: var(--timeline-color);
 
   /* Code highlight colors */
-  --language-border-color: red;
-  --highlight-bg-color: red;
+  --language-border-color: rgb(67, 90, 243);
+  --highlight-bg-color: rgb(63, 72, 247);
   --highlighter-rouge-color: #c9def1;
   --highlight-lineno-color: #808080;
   --inline-code-bg: rgba(255, 255, 255, 0.05);
@@ -177,7 +177,7 @@
 
   .highlight .err {
     color: #151515;
-    background-color: #ac4142;
+    background-color: #417aac;
   }
 
   .highlight .c,
